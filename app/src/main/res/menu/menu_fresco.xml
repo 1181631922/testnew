@@ -1,0 +1,174 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ABaseActivity">
+
+    <item
+        android:id="@+id/action_test"
+        android:orderInCategory="80"
+        android:title="TEST"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/test_0001"
+                android:orderInCategory="100"
+                android:title="测试单张图片加载" />
+            <item
+                android:id="@+id/test_0002"
+                android:orderInCategory="100"
+                android:title="photoView" />
+            <item
+                android:id="@+id/test_0003"
+                android:orderInCategory="100"
+                android:title="浏览高清图片" />
+            <item
+                android:id="@+id/test_1004"
+                android:orderInCategory="100"
+                android:title="测试微信fragment" />
+            <item
+                android:id="@+id/test_1005"
+                android:orderInCategory="100"
+                android:title="仿qq浏览器" />
+            <item
+                android:id="@+id/test_1006"
+                android:orderInCategory="100"
+                android:title="仿qq浏览器滑动隐显图片" />
+            <item
+                android:id="@+id/test_1007"
+                android:orderInCategory="100"
+                android:title="微信朋友圈" />
+            <item
+                android:id="@+id/test_1008"
+                android:orderInCategory="100"
+                android:title="io" />
+            <item
+                android:id="@+id/test_1009"
+                android:orderInCategory="100"
+                android:title="ViewDrawHelper" />
+            <item
+                android:id="@+id/test_1010"
+                android:orderInCategory="100"
+                android:title="自定义拖动view" />
+            <item
+                android:id="@+id/test_1011"
+                android:orderInCategory="100"
+                android:title="fresco例子" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_test_recycleview"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:orderInCategory="80"
+        android:visible="false"
+        android:title="测试recycleview"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/test_001"
+                android:orderInCategory="100"
+                android:title="测试NavicationView" />
+            <item
+                android:id="@+id/test_002"
+                android:orderInCategory="100"
+                android:title="测试switch控件" />
+            <item
+                android:id="@+id/test_003"
+                android:orderInCategory="100"
+                android:title="测试fragmentdialog控件" />
+            <item
+                android:id="@+id/test_004"
+                android:orderInCategory="100"
+                android:title="测试valueanimator效果" />
+            <item
+                android:id="@+id/test_006"
+                android:orderInCategory="100"
+                android:title="测试objectanimator效果" />
+            <item
+                android:id="@+id/test_005"
+                android:orderInCategory="100"
+                android:title="测试activity过度效果" />
+            <item
+                android:id="@+id/test_007"
+                android:orderInCategory="100"
+                android:title="测试testnotification" />
+            <item
+                android:id="@+id/test_008"
+                android:orderInCategory="100"
+                android:title="测试画圆" />
+            <item
+                android:id="@+id/test_009"
+                android:orderInCategory="100"
+                android:title="测试启动模式" />
+            <item
+                android:id="@+id/test_010"
+                android:orderInCategory="100"
+                android:title="测试左中括号" />
+            <item
+                android:id="@+id/test_011"
+                android:orderInCategory="100"
+                android:title="播放本地视频" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_test_implents"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:orderInCategory="90"
+        android:visible="false"
+        android:title="测试子类继承父类toolbar"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/test_01"
+                android:orderInCategory="100"
+                android:title="测试动态加载" />
+            <item
+                android:id="@+id/test_02"
+                android:orderInCategory="100"
+                android:title="测试recyclerview组件" />
+            <item
+                android:id="@+id/test_03"
+                android:orderInCategory="100"
+                android:title="测试activity四种启动模式" />
+            <item
+                android:id="@+id/test_04"
+                android:orderInCategory="100"
+                android:title="测试viewpager和Tablayout" />
+            <item
+                android:id="@+id/test_05"
+                android:orderInCategory="100"
+                android:title="测试Tween动画" />
+            <item
+                android:id="@+id/test_06"
+                android:orderInCategory="100"
+                android:title="测试Frame动画" />
+            <item
+                android:id="@+id/test_07"
+                android:orderInCategory="100"
+                android:title="测试阻尼效果" />
+            <item
+                android:id="@+id/test_08"
+                android:orderInCategory="100"
+                android:title="测试sliding效果" />
+            <item
+                android:id="@+id/test_09"
+                android:orderInCategory="100"
+                android:title="测试wheel控件" />
+            <item
+                android:id="@+id/test_10"
+                android:orderInCategory="100"
+                android:title="测试FloatingActionButton和Snackbar控件" />
+            <item
+                android:id="@+id/test_11"
+                android:orderInCategory="100"
+                android:title="测试图片选择器" />
+            <item
+                android:id="@+id/test_12"
+                android:orderInCategory="100"
+                android:title="测试fragement动画" />
+        </menu>
+    </item>
+
+
+</menu>

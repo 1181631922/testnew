@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:clickable="true"
+    tools:context="com.fanyafeng.testnew.PermissionTest.NestFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_new_text_nest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="新建文件" />
+
+                <Button
+                    android:id="@+id/btn_add_nestin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="再嵌套一层fragment" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/nestin_conatiner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</RelativeLayout>

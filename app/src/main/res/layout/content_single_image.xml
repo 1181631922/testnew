@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fanyafeng.testnew.FrascoOkhttp.SingleImageActivity"
+    tools:showIn="@layout/activity_single_image">
+
+    <LinearLayout
+        android:id="@+id/layout_single_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:src="@mipmap/ic_launcher" />-->
+        <!--roundTopLeft 控制那边不是圆角的-->
+        <!-- 或者有些可以选择写到代码中-->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_fresco_one"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            fresco:retryImageScaleType="fitXY"
+            fresco:roundTopLeft="false"
+            fresco:roundedCornerRadius="30dp" />
+        <!--fadeDuration 背景色退隐的时间-->
+        <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image_fresco_4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            fresco:fadeDuration="30000"
+            fresco:retryImageScaleType="fitXY" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_fresco_1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            fresco:retryImageScaleType="fitXY" />
+        <!--roundAsCircle 是否设置图片是圆形-->
+        <!--roundingBorderColor  roundingBorderWidth-->
+        <!-- 以上两个结合可以实现圆环的效果 -->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_fresco_2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundAsCircle="true"
+            fresco:roundingBorderColor="@android:color/holo_blue_dark"
+            fresco:roundingBorderWidth="2dp" />
+        <!--roundWithOverlayColor 设置图片背景底色-->
+        <!-- placeholderImage 加载成功前显示的图片-->
+        <!--overlayImage 水印，顶层显示，不受圆形等束缚，类似bringtofront-->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_fresco_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/avatar_round_bg"
+            android:gravity="center"
+            android:padding="2dp"
+            fresco:pressedStateOverlayImage="@android:color/holo_blue_dark"
+            fresco:roundAsCircle="true"
+            fresco:roundingBorderColor="@android:color/holo_blue_dark" />
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_fresco_5"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_fresco_6"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

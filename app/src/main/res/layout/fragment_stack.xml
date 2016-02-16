@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context="com.fanyafeng.testnew.FragmentStackTest.StackFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_father_stack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_exit_stack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="出栈，结束当前页面" />
+
+    </LinearLayout>
+
+</LinearLayout>

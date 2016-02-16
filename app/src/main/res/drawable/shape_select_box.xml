@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content">
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="45dp"
+                android:bottomRightRadius="45dp"
+                android:radius="8dp"
+                android:topLeftRadius="45dp"
+                android:topRightRadius="45dp" />
+            <gradient android:angle="45" />
+            <solid android:color="#9F897E" />
+        </shape>
+    </item>
+
+    <!--<item-->
+    <!--android:bottom="2dp"-->
+    <!--android:left="2dp"-->
+    <!--android:right="2dp"-->
+    <!--android:top="2dp">-->
+    <!--<shape android:shape="rectangle">-->
+    <!--<corners-->
+    <!--android:bottomLeftRadius="45dp"-->
+    <!--android:bottomRightRadius="45dp"-->
+    <!--android:radius="8dp"-->
+    <!--android:topLeftRadius="45dp"-->
+    <!--android:topRightRadius="45dp" />-->
+    <!--<gradient android:angle="45" />-->
+    <!--<solid android:color="#dcdcdc" />-->
+    <!--</shape>-->
+    <!--</item>-->
+
+    <!--<item-->
+    <!--android:bottom="2dp"-->
+    <!--android:left="2dp"-->
+    <!--android:right="13dp"-->
+    <!--android:top="2dp">-->
+    <!--<shape android:shape="rectangle">-->
+    <!--<corners-->
+    <!--android:bottomLeftRadius="45dp"-->
+    <!--android:bottomRightRadius="45dp"-->
+    <!--android:radius="8dp"-->
+    <!--android:topLeftRadius="45dp"-->
+    <!--android:topRightRadius="45dp" />-->
+    <!--<gradient android:angle="45" />-->
+    <!--<solid android:color="#ffffff" />-->
+    <!--</shape>-->
+    <!--</item>-->
+
+    <item
+        android:bottom="26dp"
+        android:left="26dp"
+        android:right="26dp"
+        android:top="26dp">
+        <shape android:shape="rectangle"></shape>
+    </item>
+</layer-list>

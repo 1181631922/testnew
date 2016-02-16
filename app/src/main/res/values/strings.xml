@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">testnew</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test_toolbar">TestToolbarActivity</string>
+    <string name="action_edit">编辑</string>
+    <string name="title_activity_recycle_view">RecycleViewActivity</string>
+    <string name="title_activity_test_layout">TestLayoutActivity</string>
+    <string name="title_activity_task_main">TaskMainActivity</string>
+    <string name="title_activity_standard">StandardActivity</string>
+    <string name="title_activity_single_top">SingleTopActivity</string>
+    <string name="title_activity_singl_task">SinglTaskActivity</string>
+    <string name="title_activity_single_instance">SingleInstanceActivity</string>
+    <string name="title_activity_tab_main">TabMainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tween_test">TweenTestActivity</string>
+    <string name="title_activity_test_frame">TestFrameActivity</string>
+    <string name="title_activity_test_damp">TestDampActivity</string>
+    <string name="title_activity_test_slide">TestSlideActivity</string>
+    <string name="title_activity_wheel_up">WheelUpActivity</string>
+    <string name="title_activity_wheel_back">WheelBackActivity</string>
+    <string name="title_activity_test_floating_action_button">TestFloatingActionButtonActivity
+    </string>
+    <!--<string name="app_name">testnew</string>-->
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <string name="title_activity_main_fragment">MainFragmentActivity</string>
+    <string name="title_activity_test_navication">TestNavicationActivity</string>
+    <string name="title_activity_fragment_dialog">FragmentDialogActivity</string>
+    <string name="title_activity_test_switch">TestSwitchActivity</string>
+    <string name="title_activity_test_value_animator">TestValueAnimatorActivity</string>
+    <string name="title_activity_from">FromActivity</string>
+    <string name="title_activity_to">ToActivity</string>
+    <string name="title_activity_test_object_animator">TestObjectAnimatorActivity</string>
+    <string name="title_activity_test_notification">TestNotificationActivity</string>
+    <string name="title_activity_test_circle">TestCircleActivity</string>
+    <string name="title_activity_test_task">TestTaskActivity</string>
+    <string name="title_activity_ok_http">OkHttpActivity</string>
+    <string name="title_activity_one">OneActivity</string>
+    <string name="title_activity_two">TwoActivity</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="title_activity_notifi_base">NotifiBaseActivity</string>
+    <string name="title_activity_notifi_one">NotifiOneActivity</string>
+    <string name="title_activity_webview">WebviewActivity</string>
+    <string name="title_activity_left">LeftActivity</string>
+    <string name="title_activity_play_local">PlayLocalActivity</string>
+    <string name="title_activity_blur">BlurActivity</string>
+    <string name="title_activity_matrix">MatrixActivity</string>
+    <string name="title_activity_movement">MovementActivity</string>
+    <string name="title_activity_stack">StackActivity</string>
+    <string name="title_activity_qqbrowser">QQBrowserActivity</string>
+    <string name="title_activity_qqbrowser_image">QQBrowserImageActivity</string>
+    <string name="title_activity_wechat_rotate">WechatRotateActivity</string>
+    <string name="title_activity_iostream">IOStreamActivity</string>
+    <string name="title_activity_view_draw_helper">ViewDrawHelperActivity</string>
+    <string name="title_activity_linear_drag">LinearDragActivity</string>
+    <string name="title_activity_frasco_sample">FrascoSampleActivity</string>
+    <string name="title_activity_single_image">SingleImageActivity</string>
+    <string name="title_activity_photo_view">PhotoViewActivity</string>
+    <string name="title_activity_subsampling">SubsamplingActivityActivity</string>
+    <string name="title_activity_permisson_in">PermissonInActivity</string>
+    <string name="title_activity_fragment_nest">FragmentNestActivity</string>
+    <string name="title_activity_fragment_nest_in">FragmentNestInActivity</string>
+    <string name="title_activity_float_dialog">FloatDialogActivity</string>
+    <string name="title_activity_bottom_sheets">BottomSheetsActivity</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+    <string name="title_activity_sqloperate">SQLOperateActivity</string>
+</resources>

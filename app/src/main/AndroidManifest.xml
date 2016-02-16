@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fanyafeng.testnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".toolar.TestToolbarActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".recycleview.RecycleViewActivity"
+            android:label="@string/title_activity_recycle_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testlayout.TestLayoutActivity"
+            android:label="@string/title_activity_test_layout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testtaskActivity.TaskMainActivity"
+            android:label="@string/title_activity_task_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testtaskActivity.StandardActivity"
+            android:label="@string/title_activity_standard"
+            android:launchMode="standard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testtaskActivity.SingleTopActivity"
+            android:label="@string/title_activity_single_top"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testtaskActivity.SinglTaskActivity"
+            android:label="@string/title_activity_singl_task"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testtaskActivity.SingleInstanceActivity"
+            android:label="@string/title_activity_single_instance"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testviewpagertablayout.TabMainActivity"
+            android:label="@string/title_activity_tab_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TweenTest.TweenTestActivity"
+            android:label="@string/title_activity_tween_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrameTest.TestFrameActivity"
+            android:label="@string/title_activity_test_frame"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testdamp.TestDampActivity"
+            android:label="@string/title_activity_test_damp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testslide.TestSlideActivity"
+            android:label="@string/title_activity_test_slide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testwheel.wheel.WheelUpActivity"
+            android:label="@string/title_activity_wheel_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testwheel.WheelUpActivity"
+            android:label="@string/title_activity_wheel_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testwheel.WheelBackActivity"
+            android:label="@string/title_activity_wheel_back"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testFloatingActionButton.TestFloatingActionButtonActivity"
+            android:label="@string/title_activity_test_floating_action_button"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testfragmenttranslate.MainFragmentActivity"
+            android:label="@string/title_activity_main_fragment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testnavigation.TestNavicationActivity"
+            android:label="@string/title_activity_test_navication"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".testfragmentdialog.FragmentDialogActivity"
+            android:label="@string/title_activity_fragment_dialog"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testswitch.TestSwitchActivity"
+            android:label="@string/title_activity_test_switch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testvalueanimator.TestValueAnimatorActivity"
+            android:label="@string/title_activity_test_value_animator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testactivitytranslate.FromActivity"
+            android:label="@string/title_activity_from"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testactivitytranslate.ToActivity"
+            android:label="@string/title_activity_to"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testobjectanimator.TestObjectAnimatorActivity"
+            android:label="@string/title_activity_test_object_animator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TestLayoutActivity"
+            android:label="@string/title_activity_test_layout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testnotification.TestNotificationActivity"
+            android:label="@string/title_activity_test_notification"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".testdraw.TestCircleActivity"
+            android:label="@string/title_activity_test_circle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testnotification.TestTaskActivity"
+            android:label="@string/title_activity_test_task"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okhttp.OkHttpActivity"
+            android:label="@string/title_activity_ok_http"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".result.OneActivity"
+            android:label="@string/title_activity_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".result.TwoActivity"
+            android:label="@string/title_activity_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".result.ThreeActivity"
+            android:label="@string/title_activity_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testnotification.NotifiBaseActivity"
+            android:label="@string/title_activity_notifi_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testnotification.NotifiOneActivity"
+            android:label="@string/title_activity_notifi_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".webjs.WebviewActivity"
+            android:label="@string/title_activity_webview"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".zhongkuohao.LeftActivity"
+            android:label="@string/title_activity_left"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".playvideo.PlayLocalActivity"
+            android:label="@string/title_activity_play_local"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".blurImage.BlurActivity"
+            android:label="@string/title_activity_blur"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MatrixTest.MatrixActivity"
+            android:label="@string/title_activity_matrix"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MatrixTest.MovementActivity"
+            android:label="@string/title_activity_movement"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".FragmentStackTest.StackActivity"
+            android:label="@string/title_activity_stack"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".QQBrowser.QQBrowserActivity"
+            android:label="@string/title_activity_qqbrowser"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".QQBrowser.QQBrowserImageActivity"
+            android:label="@string/title_activity_qqbrowser_image"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".wechatrotate.WechatRotateActivity"
+            android:label="@string/title_activity_wechat_rotate"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".IOStream.IOStreamActivity"
+            android:label="@string/title_activity_iostream"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ViewDragHelperTest.ViewDrawHelperActivity"
+            android:label="@string/title_activity_view_draw_helper"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ViewDragHelperTest.LinearDragActivity"
+            android:label="@string/title_activity_linear_drag"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".FrascoOkhttp.FrescoSampleActivity"
+            android:label="@string/title_activity_frasco_sample"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".FrascoOkhttp.SingleImageActivity"
+            android:label="@string/title_activity_single_image"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".FrascoOkhttp.PhotoView.PhotoViewActivity"
+            android:label="@string/title_activity_photo_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".FrascoOkhttp.PhotoView.SubsamplingActivityActivity"
+            android:label="@string/title_activity_subsampling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".PermissionTest.PermissionInActivity"
+            android:label="@string/title_activity_permisson_in"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".PermissionTest.FragmentNestActivity"
+            android:label="@string/title_activity_fragment_nest"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".PermissionTest.FragmentNestInActivity"
+            android:label="@string/title_activity_fragment_nest_in"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".testfragmentdialog.FloatDialogActivity"
+            android:label="@string/title_activity_float_dialog"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".BottomSheets.BottomSheetsActivity"
+            android:label="@string/title_activity_bottom_sheets"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ViewPagerTest.ViewPagerActivity"
+            android:label="@string/title_activity_view_pager"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".DataBaseTest.SQLOperateActivity"
+            android:label="@string/title_activity_sqloperate"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
