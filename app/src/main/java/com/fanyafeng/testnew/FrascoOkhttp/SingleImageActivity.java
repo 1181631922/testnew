@@ -78,6 +78,8 @@ public class SingleImageActivity extends BaseActivity {
 
         image_fresco_6 = (SimpleDraweeView) findViewById(R.id.image_fresco_6);
         image_fresco_6.setOnClickListener(this);
+
+
     }
 
     private void initData() {
